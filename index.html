@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Galaxy Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="galaxy-bg text-white">
+    <!-- Navigation -->
+    <header class="py-3 sticky-top galaxy-nav-wrap">
+      <nav class="navbar navbar-dark container-xxl d-flex justify-content-between align-items-center">
+        <a class="navbar-brand fw-bold tracking-wide" href="#hero">
+          <span class="logo-pill">MP</span> My Portfolio
+        </a>
+        <button
+          id="themeToggle"
+          class="btn btn-sm btn-outline-light-soft d-flex align-items-center gap-2"
+          type="button"
+          aria-label="Toggle dark mode"
+        >
+          <i class="bi bi-moon-stars" id="themeIcon"></i>
+          <span class="small d-none d-md-inline" id="themeLabel">Dark</span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero / Search-style header -->
+    <section id="hero" class="py-5">
+      <div class="container-xxl">
+        <div class="row g-4 align-items-center justify-content-center">
+          <div class="col-lg-9 col-xl-8">
+            <div class="neumorphic-slab hero-main p-3 p-md-4 p-lg-5">
+              <div class="row g-4 align-items-center hero-banner-row">
+                <div class="col-md-5">
+                  <div class="hero-photo">
+                    <img
+                      src="Pfp.jpg"
+                      alt="My portfolio cover"
+                      class="img-fluid hero-photo-img"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <p class="text-uppercase small text-soft mb-1">
+                    Aspiring Front-End Developer
+                  </p>
+                  <h1 class="display-6 display-lg-5 fw-bold mb-2">
+                    <span class="d-block">Princess F.</span>
+                    <span class="gradient-text">Alcazar</span>
+                  </h1>
+                  <p class="text-soft mb-3">
+                    A passionate learner with a goal of becoming a professional
+                    Front-End Developer. I enjoy turning ideas into functional
+                    and responsive designs using HTML, CSS, and JavaScript.
+                  </p>
+                  <div class="section-nav mt-3">
+                    <div class="d-flex flex-wrap gap-3 justify-content-center hero-links">
+                      <a href="#about" class="section-nav-btn">
+                        <i class="bi bi-person-vcard me-2"></i>
+                        <span>About</span>
+                      </a>
+                      <a href="#experience" class="section-nav-btn">
+                        <i class="bi bi-briefcase me-2"></i>
+                        <span>Experience</span>
+                      </a>
+                      <a href="#contacts" class="section-nav-btn">
+                        <i class="bi bi-chat-dots me-2"></i>
+                        <span>Contacts</span>
+                      </a>
+                      <a href="#projects" class="section-nav-btn">
+                        <i class="bi bi-grid-3x3-gap-fill me-2"></i>
+                        <span>Projects</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+      <div class="container-xxl">
+        <h2 class="section-title mb-4">About</h2>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="neumorphic-slab h-100 p-4 p-md-5">
+              <h3 class="h4 mb-3">About Me</h3>
+              <p class="text-soft mb-3">
+                A passionate learner with a goal of becoming a professional
+                Front-End Developer in the future. I enjoy turning ideas into
+                functional and responsive designs using HTML, CSS, and
+                JavaScript.
+              </p>
+              <p class="text-soft mb-0">
+                I’m always eager to learn new technologies and improve my
+                skills. My goal is to grow into a professional Front-End
+                Developer who creates meaningful and engaging digital
+                experiences.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="neumorphic-slab p-4 d-flex flex-column gap-3">
+              <div>
+                <p class="mb-1 fw-semibold">Front-End Skills</p>
+                <p class="mb-0 text-soft small">
+                  A combination of HTML, CSS, JavaScript, and Bootstrap that I
+                  use to build smooth and responsive web interfaces.
+                </p>
+              </div>
+              <hr class="my-2 opacity-25" />
+              <div class="d-flex align-items-center gap-3">
+                <div class="icon-badge">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <div>
+                  <p class="mb-1 fw-semibold">Tech Stack</p>
+                  <p class="mb-0 text-soft small">
+                    HTML, CSS, JavaScript, and Bootstrap.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3">
+                <div class="icon-badge">
+                  <i class="bi bi-compass"></i>
+                </div>
+                <div>
+                  <p class="mb-0 small text-soft">Currently exploring</p>
+                  <p class="mb-0 fw-semibold">Front-End Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="py-5">
+      <div class="container-xxl">
+        <h2 class="section-title mb-4">Experience</h2>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="neumorphic-slab h-100 overflow-hidden">
+              <div class="experience-image-wrapper">
+                <img
+                  src="BSU.jpg"
+                  alt="Batangas State University"
+                  class="experience-img"
+                />
+              </div>
+              <div class="p-4">
+                <h3 class="h5 mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  <i class="bi bi-mortarboard me-2"></i>BATANGAS STATE UNIVERSITY - TNEU
+                </h3>
+                <p class="text-soft mb-2">
+                  <span class="fw-semibold">2023 - Present</span>
+                </p>
+                <p class="mb-0 text-soft small">
+                  BS Information Technology - Service Management
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="neumorphic-slab h-100 overflow-hidden">
+              <div class="experience-image-wrapper">
+                <img
+                  src="AASMNHS.jpg"
+                  alt="Anselmo A. Sandoval MNHS"
+                  class="experience-img"
+                />
+              </div>
+              <div class="p-4">
+                <h3 class="h5 mb-3">
+                  <i class="bi bi-mortarboard me-2"></i>ANSELMO A. SANDOVAL MNHS
+                </h3>
+                <p class="text-soft mb-2">
+                  <span class="fw-semibold">2021 - 2023</span> | Senior High School Graduate
+                </p>
+                <p class="mb-0 text-soft small">
+                  Information And Communication Technology (ICT) Strand
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="neumorphic-slab h-100 overflow-hidden">
+              <div class="experience-image-wrapper">
+                <img
+                  src="SPNSH.jpg"
+                  alt="San Pascual NHS"
+                  class="experience-img"
+                />
+              </div>
+              <div class="p-4">
+                <h3 class="h5 mb-3">
+                  <i class="bi bi-mortarboard me-2"></i>SAN PASCUAL NHS
+                </h3>
+                <p class="text-soft mb-2">
+                  <span class="fw-semibold">2017 - 2021</span> | Junior High School Graduate
+                </p>
+                <p class="mb-0 text-soft small">
+                  Major of Drafting
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-5">
+      <div class="container-xxl">
+        <h2 class="section-title mb-4">Projects</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <a
+              href="https://motchie00.github.io/Tourism-Landing-Page/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none"
+            >
+              <div class="project-card neumorphic-slab h-100">
+                <div class="project-thumb tourist">
+                  <img
+                    src="Tourist.png"
+                    alt="Mabini Batangas Tourism Landing Page"
+                    class="project-thumb-img"
+                  />
+                </div>
+                <div class="p-3 d-flex flex-column h-100">
+                  <h3 class="h6 mb-1">Mabini Batangas Tourism</h3>
+                  <p class="small text-soft mb-2">
+                    Tourism landing page featuring attractions, activities, and
+                    beautiful destinations in Mabini, Batangas.
+                  </p>
+                  <button class="btn btn-project mt-auto">
+                    <span>View</span>
+                    <i class="bi bi-arrow-right-short"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <a
+              href="https://motchie00.github.io/E-commerce/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none"
+            >
+              <div class="project-card neumorphic-slab h-100">
+                <div class="project-thumb hoodverse">
+                  <img
+                    src="Hood.png"
+                    alt="Hoodverse E-commerce"
+                    class="project-thumb-img"
+                  />
+                </div>
+                <div class="p-3 d-flex flex-column h-100">
+                  <h3 class="h6 mb-1">Hoodverse E-commerce</h3>
+                  <p class="small text-soft mb-2">
+                    Premium unisex hoodie e-commerce site with shopping cart,
+                    checkout, and product collection features.
+                  </p>
+                  <button class="btn btn-project mt-auto">
+                    <span>View</span>
+                    <i class="bi bi-arrow-right-short"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section id="contacts" class="py-5 pb-6">
+      <div class="container-xxl">
+        <h2 class="section-title mb-4">Contacts</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-6">
+            <div class="neumorphic-slab p-4 p-md-5 text-center">
+              <h3 class="h5 mb-4">
+                <i class="bi bi-share me-2"></i>Connect with me
+              </h3>
+              <p class="text-soft mb-4">
+                Let's connect! Reach out through these platforms.
+              </p>
+              <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a
+                  href="https://github.com/motchie00"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="GitHub"
+                >
+                  <i class="bi bi-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/princess-alcazar-3418b9389"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="LinkedIn"
+                >
+                  <i class="bi bi-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4">
+      <div class="container-xxl text-center small text-soft">
+        CREATED BY <span class="fw-semibold">Princess F. Alcazar</span> • 2025
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
